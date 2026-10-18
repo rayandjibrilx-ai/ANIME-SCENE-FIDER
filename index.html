@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHADOWSCENE | Solo Leveling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>SHADOW<span>SCENE</span></h1>
+    <p>SOLO LEVELING SCENE FINDER</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">SYSTEM ACCESS GRANTED</p>
+      <h2>FIND THE <span>SCENE.</span></h2>
+      <p>Search for your favorite Solo Leveling moments.</p>
+
+      <form id="search-form">
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Type ARISE, IGRIS, DUNGEON..."
+          aria-label="Search Solo Leveling scenes"
+        >
+        <button type="submit">SEARCH ⚡</button>
+      </form>
+
+      <div class="quick-searches">
+        <button type="button" data-query="arise">ARISE</button>
+        <button type="button" data-query="igris">IGRIS</button>
+        <button type="button" data-query="dungeon">DUNGEON</button>
+        <button type="button" data-query="shadow monarch">SHADOW MONARCH</button>
+      </div>
+    </section>
+
+    <section class="archive">
+      <h2 id="results-title">SCENE ARCHIVE</h2>
+      <div id="results" class="results"></div>
+      <p id="empty-state" hidden>No matching scenes found. Try another word!</p>
+    </section>
+
+    <section class="watch">
+      <h2 id="player-title">YOUR SCENE</h2>
+      <div id="player">
+        <div class="play">▶</div>
+        <h3>CHOOSE YOUR SCENE</h3>
+        <p>Search for a moment, then select FIND VIDEO.</p>
+      </div>
+    </section>
+
+    <section class="notice">
+      <h3>THE SHADOW SYSTEM</h3>
+      <p>
+        Search iconic Solo Leveling moments and find available video
+        results. Video links lead to YouTube searches; actual footage
+        depends on the available source.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>SHADOWSCENE © 2026</p>
+    <p>ARISE, SHADOW MONARCH.</p>
+    <p>Unofficial fan-made project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
